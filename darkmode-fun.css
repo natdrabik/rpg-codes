@@ -1,0 +1,4 @@
+.slider input:checked ~ .content {
+  background:#eee !important;
+  color: #696969;
+}
