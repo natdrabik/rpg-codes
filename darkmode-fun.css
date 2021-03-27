@@ -1,4 +1,12 @@
+.slider {
+  position:relative;
+  width: 700px;
+  margin: 0 auto;
+}
 .slider input:checked ~ .content {
   background:#eee !important;
   color: #696969;
+}
+#slide1 {
+  display: none;
 }
