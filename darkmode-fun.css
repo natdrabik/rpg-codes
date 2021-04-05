@@ -1,12 +1,12 @@
-.slider {
+.darkmode-template {
   position:relative;
   width: 700px;
   margin: 0 auto;
 }
-.slider input {
+.darkmode-template input {
   position:absolute; top: 10px; left: 10px; color: #fff;
 }
-.slider input:checked ~ .content {
+.darkmode-template input:checked ~ .content {
   background:#eee !important;
   color: #696969;
 }
