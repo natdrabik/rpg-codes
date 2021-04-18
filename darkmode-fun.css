@@ -25,6 +25,6 @@ position: absolute;
 .subtitulo {
   margin-top: -10px;font-size: 11px; text-transform:uppercase; letter-spacing:2px; color: #464646;text-align:center; width:100%;display:inline-block;margin-bottom:30px;
 }
-.darkmode-template input:checked ~ .titulo {
+.darkmode-template input:checked ~ .content .titulo {
   color: var(--light-color);
 }
