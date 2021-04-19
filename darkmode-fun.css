@@ -28,3 +28,11 @@ position: absolute;
 .darkmode-template input:checked ~ .content .titulo {
   color: var(--light-color);
 }
+
+.darkmode-template .fala {
+  color: var(--dark-color);
+}
+
+.darkmode-template input:checked ~ .content .fala {
+  color: var(--light-color);
+}
