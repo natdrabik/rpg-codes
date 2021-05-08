@@ -17,7 +17,7 @@ position: absolute;
   display: none;
 }
 .content {
-  margin: 0 auto; background: #111; color: #696969; padding: 40px; text-align: justify; font-family: verdana; font-size: 12px; line-height: 1.8;
+  margin: 0 auto; background: #111; color: #696969; padding: 40px; text-align: justify; font-family: verdana; font-size: 11px; line-height: 1.8;
 }
 .titulo {
   font-size: 40px; font-family: 'Sacramento', cursive; color: var(--dark-color);text-align:center; width:100%;display:inline-block; line-height:1;
@@ -35,4 +35,14 @@ position: absolute;
 
 .darkmode-template input:checked ~ .content .fala {
   color: var(--light-color);
+}
+
+.darkmode-template .content:after{
+  content:'template by ~moony';
+    display:block;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #696969;
+  font-size: 8px;
 }
