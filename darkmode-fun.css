@@ -25,6 +25,20 @@ position: absolute;
 .subtitulo {
   margin-top: -10px;font-size: 11px; text-transform:uppercase; letter-spacing:2px; color: #464646;text-align:center; width:100%;display:inline-block;margin-bottom:30px;
 }
+.darkmode-template .content:after{
+  content:'template by ~moony';
+    display:block;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #696969;
+  font-size: 8px;
+  opacity: 0.8;
+}
+
+.darkmode-template input:checked ~ .content:after{
+  color: #222;
+}
 .darkmode-template input:checked ~ .content .titulo {
   color: var(--light-color);
 }
@@ -37,12 +51,4 @@ position: absolute;
   color: var(--light-color);
 }
 
-.darkmode-template .content:after{
-  content:'template by ~moony';
-    display:block;
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  color: #696969;
-  font-size: 8px;
-}
+
