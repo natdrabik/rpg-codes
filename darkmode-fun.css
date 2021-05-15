@@ -26,7 +26,7 @@ position: absolute;
   margin-top: -10px;font-size: 11px; text-transform:uppercase; letter-spacing:2px; color: #464646;text-align:center; width:100%;display:inline-block;margin-bottom:30px;
 }
 .darkmode-template .content:after{
-  content:'template by ~moony';
+  content:'by ~moony';
     display:block;
   position: absolute;
   right: 10px;
@@ -34,6 +34,9 @@ position: absolute;
   color: #696969;
   font-size: 9px;
   opacity: 0.8;
+}
+.darkmode-template .content:hover:after {
+  content: 'moonygraphics.tumblr.com';
 }
 
 .darkmode-template input:checked ~ .content:after{
