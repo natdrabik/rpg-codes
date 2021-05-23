@@ -57,7 +57,8 @@ position: absolute;
 }
 
 .day-night input:checked ~ .content:after{
-  color: #222;
+  color: #ddd;
+  background: #111;
 }
 .day-night input:checked ~ .content .titulo {
   color: var(--light-color);
@@ -69,4 +70,9 @@ position: absolute;
 
 .day-night input:checked ~ .content .fala {
   color: var(--light-color);
+}
+
+.day-night input:checked ~ .banner {
+  background: #111;
+  color: #fff;
 }
