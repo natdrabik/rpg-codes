@@ -53,7 +53,7 @@ position: absolute;
 }
 
 .day-night input:checked ~ .content:after{
-  color: #ddd;
+  color: #636363;
   background: #111;
 }
 .day-night input:checked ~ .titulo {
