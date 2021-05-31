@@ -52,19 +52,15 @@ position: absolute;
   padding: 40px;
 }
 
-.day-night .content:after {
-  
-}
-
 .day-night input:checked ~ .content:after{
   color: #ddd;
   background: #111;
 }
-.day-night input:checked ~ .content .titulo {
+.day-night input:checked ~ .titulo {
   color: #fff;
 }
 
-.day-night input:checked ~ .content .subtitulo {
+.day-night input:checked ~ .subtitulo {
   color: #ddd;
 }
 
