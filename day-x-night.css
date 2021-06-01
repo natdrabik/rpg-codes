@@ -56,11 +56,11 @@ position: absolute;
   color: #636363;
   background: #111;
 }
-.day-night input:checked ~ .titulo {
+.day-night input:checked ~ .banner .titulo {
   color: #fff;
 }
 
-.day-night input:checked ~ .subtitulo {
+.day-night input:checked ~ .banner .subtitulo {
   color: #ddd;
 }
 
