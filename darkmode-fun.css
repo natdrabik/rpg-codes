@@ -13,16 +13,16 @@ position: absolute;
   background:#eee !important;
   color: #222;
 }
-#slide1 {
+.darkmode-template #slide1 {
   display: none;
 }
-.content {
+.darkmode-template .content {
   margin: 0 auto; background: #111; color: #696969; padding: 40px 40px 60px 40px; text-align: justify; font-family: verdana; font-size: 11px; line-height: 1.8;
 }
-.titulo {
+.darkmode-template .titulo {
   font-size: 40px; font-family: 'Sacramento', cursive; color: var(--dark-color);text-align:center; width:100%;display:inline-block; line-height:1;
 }
-.subtitulo {
+.darkmode-template .subtitulo {
   margin-top: -10px;font-size: 11px; text-transform:uppercase; letter-spacing:2px; color: #464646;text-align:center; width:100%;display:inline-block;margin-bottom:30px;
 }
 .darkmode-template .content:after{
