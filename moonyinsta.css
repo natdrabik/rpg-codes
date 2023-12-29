@@ -17,6 +17,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #000;
+  line-height: 18px;
+  font-size: 13px;
 }
 
 .mg-moonyinsta .mg-container {
