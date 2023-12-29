@@ -9,6 +9,7 @@
   color: #000;
   line-height: 18px !important;
   font-size: 13px !important;
+  box-sizing: border-box;
 }
 
 .mg-moonyinsta .mg-container {
