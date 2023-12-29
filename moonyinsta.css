@@ -66,6 +66,8 @@
 .mg-moonyinsta .mg-container > .mg-top > .mg-information > .mg-username,
 .mg-name {
   font-size: 16px;
+  display:inline-flex;
+  align-items: center;
 }
 
 .mg-moonyinsta .mg-container > .mg-top > .mg-information .mg-username {
