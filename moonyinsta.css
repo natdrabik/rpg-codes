@@ -71,7 +71,7 @@
 }
 
 .mg-moonyinsta .mg-container > .mg-top > .mg-information .mg-username {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
