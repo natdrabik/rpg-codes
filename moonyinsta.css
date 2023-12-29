@@ -16,6 +16,7 @@ body {
   align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  color: #000;
 }
 
 .mg-moonyinsta .mg-container {
@@ -65,7 +66,7 @@ body {
 
 .mg-moonyinsta .mg-container > .mg-top > .mg-information > .mg-username,
 .mg-name {
-  font-size: 1rem;
+  font-size: 16px;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -189,7 +190,7 @@ body {
   display: flex;
   gap: 2.5px;
   align-items: center;
-  padding: 0 5px 0 1rem;
+  padding: 0 5px 0 10px;
   font-size: 14px;
 }
 
@@ -226,7 +227,7 @@ body {
 
 .mg-moonyinsta .mg-container > .mg-topComments {
   width: 100%;
-  padding: 10px 1rem;
+  padding: 10px;
   gap: 3.5px;
   display: flex;
   align-items: flex-start;
@@ -258,14 +259,14 @@ body {
 .mg-moonyinsta .mg-container > .mg-likes {
   color: black;
   width: 100%;
-  padding: 5px 1rem;
+  padding: 5px 10px;
   font-size: 14px;
   cursor: pointer;
 }
 
 .mg-moonyinsta .mg-container > .mg-direction {
   font-size: 13px;
-  padding: 5px 1rem;
+  padding: 5px 10px;
   font-weight: 400;
   color: gray;
   width: 100%;
@@ -273,7 +274,7 @@ body {
 
 .mg-moonyinsta .mg-container > .mg-time {
   font-size: 10px;
-  padding: 5px 1rem;
+  padding: 5px 10px;
   font-weight: 400;
   color: gray;
   width: 100%;
