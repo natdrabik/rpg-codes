@@ -18,6 +18,10 @@
   box-sizing: border-box;
 }
 
+.mg-moonyinsta strong {
+  font-weight: 700;
+}
+
 .mg-moonyinsta .mg-container {
   background-color: white;
   margin: 10px;
