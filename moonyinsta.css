@@ -185,6 +185,8 @@
 
 .mg-moonyinsta .mg-container > .mg-caption > .mg-content > .mg-information > .mg-username {
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
 }
 
 .mg-moonyinsta .mg-container > .mg-caption > .mg-content > .mg-information > .mg-text {
