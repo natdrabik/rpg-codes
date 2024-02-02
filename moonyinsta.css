@@ -217,9 +217,9 @@
 }
 
 .mg-moonyinsta .mg-container > .mg-topComments > .mg-comment {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 3px;
 }
 
 .mg-moonyinsta .mg-container > .mg-topComments > .mg-reply {
@@ -235,6 +235,7 @@
 
 .mg-moonyinsta .mg-container > .mg-topComments > .mg-comment > .mg-text {
   font-size: 13px;
+  display: inline;
 }
 
 .mg-moonyinsta .mg-container > .mg-likes {
