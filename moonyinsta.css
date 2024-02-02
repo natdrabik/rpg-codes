@@ -230,7 +230,8 @@
 .mg-moonyinsta .mg-container > .mg-topComments .mg-comment > .mg-username {
   font-size: 14px;
   font-weight: 600;
-  margin-ight: 3px;
+  margin-right: 3px;
+  display: inline;
 }
 
 .mg-moonyinsta .mg-container > .mg-topComments > .mg-comment > .mg-text {
