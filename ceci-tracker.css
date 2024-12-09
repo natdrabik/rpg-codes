@@ -267,6 +267,20 @@
     transition: .8s ease-in-out .8s;
 }
 
+  .wrapper-link {
+    display: flex;
+    align-items: center;
+  }
+.wrapper-link span {
+    display: inline-block;
+    background: var(--acento);
+    padding: 1px 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    line-height: 1;
+    margin-left: 10px;
+}
+
   .chronomain {--fondo: #080808;--texto: #ccc;--textob: #808080;--acento: #24659b;--acentol: #24659b;--acentob: #24659b;--borde: 1px solid #222;--ancho: 100%;} .a:before, .c:before {font-family:cappuccicons;} 
   .a:before {content:'\ea9c';} 
   .c:before {content:'\ea9b';}
