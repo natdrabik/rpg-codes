@@ -265,5 +265,8 @@
     transition: .8s ease-in-out .8s;
 }
 
-  .chronomain {--fondo: #080808;--texto: #ccc;--textob: #808080;--acento: #24659b;--acentol: #24659b;--acentob: #24659b;--borde: 1px solid #222;--ancho: 100%;} .a:before, .c:before {font-family:cappuccicons;} .a:before {content:'\ea9c';} .c:before {content:'\ea9b';}
+  .chronomain {--fondo: #080808;--texto: #ccc;--textob: #808080;--acento: #24659b;--acentol: #24659b;--acentob: #24659b;--borde: 1px solid #222;--ancho: 100%;} .a:before, .c:before {font-family:cappuccicons;} 
+  .a:before {content:'\ea9c';} 
+  .c:before {content:'\ea9b';}
+  .rp:before {content:'\e9d5';}
 }
