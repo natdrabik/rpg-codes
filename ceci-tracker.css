@@ -191,7 +191,9 @@
   transition: 1s ease-in-out;
 }
 
-.a:before, .c:before {
+.a:before,
+.c:before,
+.rp:before {
   font-family:cappuccicons;
   color: var(--textob);
   grid-area: state;
